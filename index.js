@@ -7,6 +7,7 @@
 
 module.exports = function(player, parent, targetRatio){
 
+
 	//make sure player exists
 	if (!player){
 		console.log('%c No player element provided', 'background: rgba(255,0,0,1); color: rgba(255,0,255,1);');
