@@ -1,6 +1,6 @@
 {
   "name": "laserdisc-fullscreen",
-  "version": "0.0.1-alpha1",
+  "version": "0.0.2-alpha1",
   "description": "Companion module to laserdisc which keeps videos at fullscreen, whether HTML video, youtube, vimeo, etc",
   "main": "index.js",
   "scripts": {
