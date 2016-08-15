@@ -38,6 +38,8 @@ module.exports = function(player, parent, targetRatio){
 	var pWidth = width;
 	var pHeight = pWidth / ratio;
 
+	
+
 	//--------------------------------------------
 	// Gap underneath
 	//
@@ -51,6 +53,11 @@ module.exports = function(player, parent, targetRatio){
 		player.style.left = (width - pWidth) / 2 + 'px';
 	}
 
+	
+
+	//--------------------------------------------
+	// Gap on side
+	//
 	else {
 		pHeight = Math.ceil(width / ratio);
 
