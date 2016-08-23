@@ -24,17 +24,8 @@ module.exports = function(player, parent, targetRatio){
 	// Set width + height
 	//
 
-	var width = container.innerWidth;
-	var height = container.innerHeight;
-
-	if (!width || width === 0){
-		width = container.clientWidth;
-	}
-
-	if (!height || height === 0){
-		width = container.clientHeight;
-	}
-
+	var width = container.innerWidth || container.clientWidth;
+	var height = container.innerHeight || container.clientHeight;
 
 	var pWidth = width;
 	var pHeight = pWidth / ratio;
